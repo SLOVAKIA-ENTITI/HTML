@@ -1,0 +1,297 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+/*Header*/
+header{
+    background-color: #6C4AB6;
+    padding: 15px 25px 50px 25px;
+}
+.navigacia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6C4AB6;
+    color: white;
+    padding: 15px 25px 50px 25px;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px 2px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px 2px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 2px;
+}
+
+nav ul li a:hover {
+    background-color: #561dd1;
+    padding: 10px 2px;
+}
+.Hi{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.Uvod{
+    text-align: center;
+    
+    background-color: #6C4AB6;
+    color: white;
+}
+.btn {
+    background: #FF9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* Services */
+.services {
+    color: #E0F7FA;
+    font-weight:900;
+    background: #00cc8f;
+    padding: 40px;
+}
+.specialize{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.hr{
+    text-align: justify;
+    border: 2px solid #019c6e ;
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+
+}
+
+.obr{
+    height: 100px;
+    width: 100px;
+}
+.serv{
+    list-style: none;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 15px;
+
+
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.service {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Team */
+.team {
+    background: #E0F7FA;
+    padding: 40px;
+}
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.member img {
+    width: 100px;
+    border-radius: 50%;
+}
+.role{
+ color: #00abee;
+ font-weight: 700;
+}
+.hr2{
+    margin-top: 25px ;
+    margin-bottom: 25px;
+    text-align: justify;
+    border: 2px solid #c9dcdf ;
+    width: 200px;
+
+}
+
+.desc{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+/* Skills */
+.skills {
+    padding: 40px;
+    
+}
+
+.skill-bars {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.graf{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.hr3{
+    text-align: justify;
+    border: 2px solid #636464 ;
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Portfolio */
+.portfolio {
+    background: #ffdab9;
+    padding: 40px;
+}
+
+.hr4{
+    text-align: justify;
+    border: 2px solid #f7bd8a ;
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btn1{
+    color: white;
+    background-color: #05da81;
+    margin: 1000px 100px;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.row{
+    display: inline-block;
+    margin-bottom: 50px;
+    
+}
+
+
+
+.lap{
+    align-content: center;
+    height: 400px;
+    width: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+
+}
+
+.lapb{
+    align-content: center;
+    height: 400px;
+    width: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+
+}
+.projekt-navigation{
+    display: flex;
+    justify-content: center;
+}
+.projekt{
+    padding: 15px 15px;
+    font-weight: bold;
+    color: black;
+    background-color: #c09d7f;
+
+}
+nav ul li a:hover{
+    padding: 15px 15px;
+    background-color: white;
+}
+
+/* Testimonials */
+.testimonials {
+    background: #E91E63;
+    color: white;
+    padding: 40px;
+}
+.testimonial {
+    background: white;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Contact */
+.contact {
+    background: #283593;
+    color: white;
+    padding: 40px;
+}
+.contact form input, .contact form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.contact form button {
+    background: #FF9800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
